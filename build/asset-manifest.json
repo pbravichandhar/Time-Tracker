@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/pbravichandhar/Time-Trackerstatic/css/main.5f361e03.chunk.css",
+    "main.js": "/pbravichandhar/Time-Trackerstatic/js/main.4ce8f599.chunk.js",
+    "main.js.map": "/pbravichandhar/Time-Trackerstatic/js/main.4ce8f599.chunk.js.map",
+    "runtime-main.js": "/pbravichandhar/Time-Trackerstatic/js/runtime-main.dd5d8b2d.js",
+    "runtime-main.js.map": "/pbravichandhar/Time-Trackerstatic/js/runtime-main.dd5d8b2d.js.map",
+    "static/js/2.a0c9bf13.chunk.js": "/pbravichandhar/Time-Trackerstatic/js/2.a0c9bf13.chunk.js",
+    "static/js/2.a0c9bf13.chunk.js.map": "/pbravichandhar/Time-Trackerstatic/js/2.a0c9bf13.chunk.js.map",
+    "index.html": "/pbravichandhar/Time-Trackerindex.html",
+    "precache-manifest.c1faef7249a2c03e555c1f17db2293d2.js": "/pbravichandhar/Time-Trackerprecache-manifest.c1faef7249a2c03e555c1f17db2293d2.js",
+    "service-worker.js": "/pbravichandhar/Time-Trackerservice-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/pbravichandhar/Time-Trackerstatic/css/main.5f361e03.chunk.css.map",
+    "static/js/2.a0c9bf13.chunk.js.LICENSE.txt": "/pbravichandhar/Time-Trackerstatic/js/2.a0c9bf13.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/pbravichandhar/Time-Trackerstatic/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.dd5d8b2d.js",
+    "static/js/2.a0c9bf13.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.4ce8f599.chunk.js"
+  ]
+}
