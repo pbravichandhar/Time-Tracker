@@ -1,10 +1,10 @@
 import constant from './constant'
- 
-import produce from 'immer';
+
+import produce from 'immer'
 
 export const initialState = {
-    userDetail: {}
-};
+  userDetail: {}
+}
 
 /* eslint-disable default-case, no-param-reassign */
 const authenticationReducer = (state = initialState, action) =>
@@ -12,8 +12,8 @@ const authenticationReducer = (state = initialState, action) =>
     switch (action.type) {
       case constant.LOGIN:
         draft.userDetail = action.userDetail
-        break;
+        break
     }
-  });
+  })
 
-export default authenticationReducer;
+export default authenticationReducer

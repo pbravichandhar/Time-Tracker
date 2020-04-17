@@ -13,7 +13,7 @@ function LoginScreen (props) {
   const [passwordError, setPasswordError] = useState()
   const [password, setPassword] = useState('')
   const onclick = () => {
-    props.login(email,password)
+    props.login(email, password)
   }
   return (
     <div>
@@ -64,14 +64,13 @@ function LoginScreen (props) {
 }
 
 // Get State from redux store
-export const mapStateToProps = (state) => ({
-  userDetail: state.auth.userDetail,
+export const mapStateToProps = state => ({
+  userDetail: state.auth.userDetail
 })
 
 // Dispatch action via props
-export const mapDispatchToProps = (dispatch) => ({
-  login: (email,password) => dispatch(asyncLogin(email,password)),
+export const mapDispatchToProps = dispatch => ({
+  login: (email, password) => dispatch(asyncLogin(email, password))
 })
 
 export default connect(mapStateToProps, mapDispatchToProps)(LoginScreen)
-

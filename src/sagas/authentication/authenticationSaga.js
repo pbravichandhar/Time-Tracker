@@ -5,9 +5,12 @@ import { login } from '../../reducers/authentication/action'
 import { ApiService } from '../../services/apiServices'
 
 // Individual exports for testing
-export function* loginPageSaga(data) {
+export function* loginPageSaga (data) {
   try {
-    const responseData = yield call(ApiService.postApi, '/login', {email:data.email, password: data.password})
+    const responseData = yield call(ApiService.postApi, '/login', {
+      email: data.email,
+      password: data.password
+    })
     yield put(
       login({
         status: responseData.status,
@@ -20,6 +23,6 @@ export function* loginPageSaga(data) {
   }
 }
 
-export default function* loginSaga() {
+export default function* loginSaga () {
   yield takeLatest(constant.ASYNC_LOGIN, loginPageSaga)
 }

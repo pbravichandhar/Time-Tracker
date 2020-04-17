@@ -49,7 +49,11 @@ function PrimaryTextField ({
           }
           labelWidth={70}
         />
-        {error && <FormHelperText id="my-helper-text" error>{helperText}</FormHelperText>}
+        {error && (
+          <FormHelperText id='my-helper-text' error>
+            {helperText}
+          </FormHelperText>
+        )}
       </FormControl>
     </div>
   )
